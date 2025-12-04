@@ -1,0 +1,48 @@
+.title {
+  margin-bottom: 2rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  text-align: center;
+  font-weight: 700;
+  color: #003366;
+}
+
+/* GRID GERAL */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(2rem, 5vw, 4rem);
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: clamp(1rem, 4vw, 3rem);
+}
+
+.grid > div {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e6e6e6;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.grid h4 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #005c99;
+  font-weight: 600;
+}
+
+.grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.grid li {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #333;
+  position: relative;
+  padding-left: 20px;
+}

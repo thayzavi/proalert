@@ -1,0 +1,36 @@
+.titulo {
+  margin-bottom: 2rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  text-align: center;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.list li {
+  background: rgb(255, 255, 255);
+  backdrop-filter: blur(4px);
+  padding: clamp(1rem, 1.5vw, 1.4rem);
+  border-left: 5px solid #003366;
+  border-radius: 10px;
+  font-size: clamp(1rem, 1.1vw, 1.2rem);
+  font-weight: 500;
+  line-height: 1.5;
+  color: #003366;
+  transition: 0.2s ease;
+}
+
+.list li:hover {
+  transform: translateX(4px);
+  background: rgba(255, 255, 255, 0.534);
+}

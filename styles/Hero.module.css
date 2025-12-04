@@ -1,0 +1,56 @@
+.hero {
+  padding: clamp(2rem, 3vw, 4rem) 0;
+  background: white;
+}
+.hero span{
+  color: #08b102;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(2rem, 6vw, 4rem);
+  padding: 0 clamp(1rem, 3vw, 2rem);
+}
+
+.grid h1 {
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  color: #003366;
+  font-weight: 700;
+}
+
+.grid p {
+  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
+  line-height: 1.6;
+  max-width: 550px;
+  color: #004080;
+}
+
+.image {
+  width: clamp(240px, 40%, 480px);
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image {
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+
+  .hero {
+    padding: 3rem 0;
+  }
+}
