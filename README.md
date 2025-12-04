@@ -95,7 +95,7 @@ Imagens reais da montagem utilizando:
 ```bash
 git clone https://github.com/seu-usuario/proalert.git
 ```
-2. Baixar as depêndencias 
+2. Baixar as dependência 
 ```bash
 npm i 
 ```
