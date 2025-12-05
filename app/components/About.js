@@ -5,12 +5,16 @@ export default function About() {
     <section id="sobre" className={`section blueSection`}>
       <div className="container">
         <p className={styles.text}>
-          O PROALERT foi projetado para isso: monitorar continuamente o nível da água, analisar variações em tempo real e traduzir qualquer sinal de risco em alertas automáticos de alta precisão.
-
-          Nosso sistema utiliza sensoriamento ultrassônico, processamento inteligente e infraestrutura em nuvem para entregar informações claras, rápidas e estratégicas.
-          Isso permite que gestores, equipes de campo e comunidades tenham acesso antecipado a situações críticas — ganhando tempo para agir antes que o problema se torne uma emergência.
+          O PROALERT foi desenvolvido para monitorar continuamente o nível da água em vias urbanas,
+          analisar variações em tempo real e transformar qualquer sinal de risco em alertas automáticos
+          de alta precisão.  
+          Com sensoriamento ultrassônico, processamento inteligente e infraestrutura em nuvem,
+          o sistema entrega informações rápidas e claras para apoiar decisões estratégicas.
+          Assim, gestores de trânsito, equipes de campo e a comunidade recebem avisos antecipados,
+          ganhando tempo para evitar bloqueios, redirecionar rotas e reduzir impactos na mobilidade.
         </p>
       </div>
     </section>
   );
 }
+
