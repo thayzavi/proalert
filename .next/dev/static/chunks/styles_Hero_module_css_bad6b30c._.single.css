@@ -1,0 +1,61 @@
+/* [project]/styles/Hero.module.css [app-client] (css) */
+.Hero-module__dQlAoa__hero {
+  background: #fff;
+  padding: clamp(2rem, 3vw, 4rem) 0;
+}
+
+.Hero-module__dQlAoa__hero span {
+  color: #08b102;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.Hero-module__dQlAoa__grid {
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(2rem, 6vw, 4rem);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+  display: flex;
+}
+
+.Hero-module__dQlAoa__grid h1 {
+  color: #036;
+  margin-bottom: 1.5rem;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.Hero-module__dQlAoa__grid p {
+  color: #004080;
+  max-width: 550px;
+  font-size: clamp(1.1rem, 1.8vw, 1.3rem);
+  line-height: 1.6;
+}
+
+.Hero-module__dQlAoa__image {
+  object-fit: cover;
+  border-radius: 12px;
+  width: clamp(240px, 40%, 480px);
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .Hero-module__dQlAoa__grid {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .Hero-module__dQlAoa__image {
+    width: 80%;
+    margin-top: 1.5rem;
+  }
+
+  .Hero-module__dQlAoa__hero {
+    padding: 3rem 0;
+  }
+}
+
+/*# sourceMappingURL=styles_Hero_module_css_bad6b30c._.single.css.map*/

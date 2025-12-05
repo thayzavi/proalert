@@ -1,0 +1,65 @@
+/* [project]/styles/Header.module.css [app-client] (css) */
+.Header-module__vcZAwq__header {
+  z-index: 100;
+  background: #fff;
+  padding: clamp(1rem, 1vw, 1rem) 0;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 2px 10px #0000000f;
+}
+
+.Header-module__vcZAwq__navbar {
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 clamp(1rem, 3vw, 2rem);
+  display: flex;
+}
+
+.Header-module__vcZAwq__logo {
+  align-items: center;
+  width: 100px;
+  display: flex;
+}
+
+.Header-module__vcZAwq__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.Header-module__vcZAwq__menu {
+  align-items: center;
+  gap: clamp(1rem, 2vw, 2rem);
+  list-style: none;
+  display: flex;
+}
+
+.Header-module__vcZAwq__menu li a {
+  color: #036;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+.Header-module__vcZAwq__menu li a:hover {
+  color: #005c99;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .Header-module__vcZAwq__navbar {
+    justify-content: space-between;
+  }
+
+  .Header-module__vcZAwq__menu {
+    display: none;
+  }
+
+  .Header-module__vcZAwq__logo {
+    width: 100px;
+  }
+}
+
+/*# sourceMappingURL=styles_Header_module_css_bad6b30c._.single.css.map*/

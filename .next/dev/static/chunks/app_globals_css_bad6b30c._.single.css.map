@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":["/* Reset básico */\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-size: 1rem;\n}\n\nbody {\n  font-family: Georgia, 'Times New Roman', Times, serif;\n  color: #003366;\n  background: #ffffff;\n}\n\n/* Utilitários */\n.container {\n  width: 90%;\n  max-width: 1280px;\n  margin: 0 auto;\n}\n\n.section {\n  padding: 60px 0;\n}\n\n.blueSection {\n  background: #00619D;\n  color: white;\n  padding: clamp(2rem, 6vw + 1rem, 8rem);\n}\n\n"],"names":[],"mappings":"AACA;;;;;;;AAOA;;;;;;AAOA;;;;;;AAMA;;;;AAIA"}}]
+}

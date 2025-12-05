@@ -1,0 +1,86 @@
+/* [project]/styles/Galeria.module.css [app-client] (css) */
+.Galeria-module__455Yqa__titulo {
+  text-align: center;
+  color: #036;
+  margin-bottom: 2rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+
+.Galeria-module__455Yqa__galeria {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-top: 40px;
+  display: flex;
+}
+
+.Galeria-module__455Yqa__foto {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 16.5rem;
+  height: 16.5rem;
+  transition: transform .3s, box-shadow .3s;
+}
+
+.Galeria-module__455Yqa__text {
+  color: #036;
+  margin-top: 25px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.Galeria-module__455Yqa__lista {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+}
+
+.Galeria-module__455Yqa__lista li {
+  text-align: center;
+  background: #0458b949;
+  border-left: 5px solid #036;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 700px;
+  margin: 10px 0;
+  padding: 14px 18px;
+  font-weight: 500;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+}
+
+.Galeria-module__455Yqa__lista li:hover {
+  transform: translateX(4px);
+  box-shadow: 0 3px 10px #00000026;
+}
+
+.Galeria-module__455Yqa__foto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px #0003;
+}
+
+@media (max-width: 600px) {
+  .Galeria-module__455Yqa__foto {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .Galeria-module__455Yqa__galeria {
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+  }
+
+  .Galeria-module__455Yqa__lista li {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles_Galeria_module_css_bad6b30c._.single.css.map*/

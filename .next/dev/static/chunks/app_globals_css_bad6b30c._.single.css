@@ -1,0 +1,31 @@
+/* [project]/app/globals.css [app-client] (css) */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+body {
+  color: #036;
+  background: #fff;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.blueSection {
+  color: #fff;
+  background: #00619d;
+  padding: clamp(2rem, 6vw + 1rem, 8rem);
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

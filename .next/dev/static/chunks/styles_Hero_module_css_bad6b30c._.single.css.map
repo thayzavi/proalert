@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Hero.module.css"],"sourcesContent":[".hero {\r\n  padding: clamp(2rem, 3vw, 4rem) 0;\r\n  background: white;\r\n}\r\n.hero span{\r\n  color: #08b102;\r\n  font-weight: bold;\r\n  font-size: 1.4rem;\r\n}\r\n.grid {\r\n  max-width: 1200px;\r\n  margin: 0 auto;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  gap: clamp(2rem, 6vw, 4rem);\r\n  padding: 0 clamp(1rem, 3vw, 2rem);\r\n}\r\n\r\n.grid h1 {\r\n  font-size: clamp(2rem, 4vw, 3.2rem);\r\n  line-height: 1.2;\r\n  margin-bottom: 1.5rem;\r\n  color: #003366;\r\n  font-weight: 700;\r\n}\r\n\r\n.grid p {\r\n  font-size: clamp(1.1rem, 1.8vw, 1.3rem);\r\n  line-height: 1.6;\r\n  max-width: 550px;\r\n  color: #004080;\r\n}\r\n\r\n.image {\r\n  width: clamp(240px, 40%, 480px);\r\n  height: auto;\r\n  border-radius: 12px;\r\n  object-fit: cover;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .grid {\r\n    flex-direction: column;\r\n    text-align: center;\r\n  }\r\n\r\n  .image {\r\n    width: 80%;\r\n    margin-top: 1.5rem;\r\n  }\r\n\r\n  .hero {\r\n    padding: 3rem 0;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;AAIA;;;;;;AAKA;;;;;;;;;;AAUA;;;;;;;;AAQA;;;;;;;AAOA;;;;;;;AAOA;EACE;;;;;EAKA;;;;;EAKA"}}]
+}

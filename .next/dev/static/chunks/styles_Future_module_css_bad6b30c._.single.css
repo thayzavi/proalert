@@ -1,0 +1,39 @@
+/* [project]/styles/Future.module.css [app-client] (css) */
+.Future-module__4sPbwa__titulo {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+
+.Future-module__4sPbwa__list {
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 1.5rem);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Future-module__4sPbwa__list li {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  color: #036;
+  background: #fff;
+  border-left: 5px solid #036;
+  border-radius: 10px;
+  padding: clamp(1rem, 1.5vw, 1.4rem);
+  font-size: clamp(1rem, 1.1vw, 1.2rem);
+  font-weight: 500;
+  line-height: 1.5;
+  transition: all .2s;
+}
+
+.Future-module__4sPbwa__list li:hover {
+  background: #fff8;
+  transform: translateX(4px);
+}
+
+/*# sourceMappingURL=styles_Future_module_css_bad6b30c._.single.css.map*/

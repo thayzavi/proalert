@@ -1,0 +1,50 @@
+/* [project]/styles/Technologies.module.css [app-client] (css) */
+.Technologies-module__bYSqAq__title {
+  text-align: center;
+  color: #036;
+  margin-bottom: 2rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+
+.Technologies-module__bYSqAq__grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: clamp(2rem, 5vw, 4rem);
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: clamp(1rem, 4vw, 3rem);
+  display: grid;
+}
+
+.Technologies-module__bYSqAq__grid > div {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 16px;
+  padding: 2rem;
+  transition: transform .25s, box-shadow .25s;
+  box-shadow: 0 6px 20px #00000014;
+}
+
+.Technologies-module__bYSqAq__grid h4 {
+  color: #005c99;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.Technologies-module__bYSqAq__grid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.Technologies-module__bYSqAq__grid li {
+  color: #333;
+  margin: .5rem 0;
+  padding-left: 20px;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+/*# sourceMappingURL=styles_Technologies_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Technologies.module.css"],"sourcesContent":[".title {\r\n  margin-bottom: 2rem;\r\n  font-size: clamp(1.8rem, 3vw, 2.4rem);\r\n  text-align: center;\r\n  font-weight: 700;\r\n  color: #003366;\r\n}\r\n\r\n/* GRID GERAL */\r\n.grid {\r\n  display: grid;\r\n  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\r\n  gap: clamp(2rem, 5vw, 4rem);\r\n  width: 100%;\r\n  max-width: 1100px;\r\n  margin: 0 auto;\r\n  padding: clamp(1rem, 4vw, 3rem);\r\n}\r\n\r\n.grid > div {\r\n  background: #ffffff;\r\n  padding: 2rem;\r\n  border-radius: 16px;\r\n  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);\r\n  border: 1px solid #e6e6e6;\r\n  transition: transform 0.25s ease, box-shadow 0.25s ease;\r\n}\r\n\r\n.grid h4 {\r\n  font-size: 1.4rem;\r\n  margin-bottom: 1rem;\r\n  color: #005c99;\r\n  font-weight: 600;\r\n}\r\n\r\n.grid ul {\r\n  list-style: none;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\n.grid li {\r\n  margin: 0.5rem 0;\r\n  font-size: 1.1rem;\r\n  color: #333;\r\n  position: relative;\r\n  padding-left: 20px;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AASA;;;;;;;;;;AAUA;;;;;;;;;AASA;;;;;;;AAOA;;;;;;AAMA"}}]
+}

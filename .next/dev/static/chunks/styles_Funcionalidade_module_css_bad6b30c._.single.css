@@ -1,0 +1,38 @@
+/* [project]/styles/Funcionalidade.module.css [app-client] (css) */
+.Funcionalidade-module__URkOWa__titulo {
+  text-align: center;
+  color: #036;
+  margin-bottom: 2rem;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 700;
+}
+
+.Funcionalidade-module__URkOWa__cards {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.Funcionalidade-module__URkOWa__card {
+  background: #00619d;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.Funcionalidade-module__URkOWa__card p {
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+.Funcionalidade-module__URkOWa__card h3 {
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .Funcionalidade-module__URkOWa__cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=styles_Funcionalidade_module_css_bad6b30c._.single.css.map*/

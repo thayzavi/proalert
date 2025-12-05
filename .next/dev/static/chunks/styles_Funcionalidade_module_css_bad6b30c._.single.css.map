@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Funcionalidade.module.css"],"sourcesContent":[".titulo {\r\n  margin-bottom: 2rem;\r\n  font-size: clamp(1.8rem, 3vw, 2.4rem);\r\n  text-align: center;\r\n  font-weight: 700;\r\n  color: #003366;\r\n}\r\n.cards {\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  gap: 30px;\r\n}\r\n\r\n.card {\r\n  background: #00619D;\r\n  padding: 30px;\r\n  border-radius: 10px;\r\n}\r\n.card p{\r\n  color: #ffff;\r\n  margin-bottom: 5rem;\r\n}\r\n.card h3 {\r\n  margin-bottom: 3rem;\r\n  color: #ffff;\r\n}\r\n\r\n@media(max-width: 768px) {\r\n  .cards {\r\n    grid-template-columns: 1fr;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;AAMA;;;;;;AAKA;;;;;AAIA;;;;;AAKA;EACE"}}]
+}
