@@ -7,14 +7,14 @@ export default function Hero() {
         <div className={styles.grid}>
           <div>
             <h1>PROALERT</h1>
-            <p>
-              A mitigação de desastres depende da rapidez e precisão das informações. Por isso,
-              o PROALERT transforma dados de sensores ultrassônicos em indicadores confiáveis sobre
-              o nível da água em áreas vulneráveis.
-              Com hardware preciso, processamento embarcado e análise em nuvem, o sistema identifica tendências,
-              detecta variações críticas e aciona alertas automáticos — oferecendo informação estratégica para
-              decisões mais rápidas e redução de impactos.
-            </p>
+              <p>
+                Mobilidade urbana segura começa com informação confiável. O PROALERT monitora
+                o nível da água em vias críticas utilizando sensores ultrassônicos de alta precisão,
+                processa os dados localmente e envia análises para a nuvem em tempo real.
+                Com isso, identifica tendências de alagamento, detecta variações críticas e dispara
+                alertas automáticos — ajudando motoristas, moradores e órgãos de trânsito a tomarem
+                decisões rápidas e evitarem bloqueios inesperados.
+              </p>
           </div>
 
           <img
@@ -27,3 +27,4 @@ export default function Hero() {
     </section>
   );
 }
+
